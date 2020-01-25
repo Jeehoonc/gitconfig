@@ -20,4 +20,4 @@ rbias=rebase -i
 	required = true
 
 [core]
-	pager = # less  # DO NOT USE PAGER HERE
+	pager = less -X -F   # use less only when necessary
